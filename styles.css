@@ -1,24 +1,26 @@
 body{
     font-family: Inter;
-    background: linear-gradient(to right, #000000, #424242);
+    background: url(wall.png) center/cover;
     height: 100vh;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 h1{
-    font-size: 10vh;
+    font-size: 15vh;
     margin: 0;
 }
 
-h1,h2{
-    background: linear-gradient(to bottom right, #84bdd8, #ca69aa);
+h1,h2, .logo, .nav-links a:hover{
+    background: url(g2.png) center/cover no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
 }
+
 h2{
     font-style: italic;
     margin: 0;
+    font-size: 3.5vh;
 }
 
 .navbar {
@@ -47,7 +49,6 @@ h2{
 }
 
 .nav-links a:hover {
-    color: #a8aee2;
     transition: color 0.1s ease-in-out;
 }
 
@@ -59,8 +60,10 @@ h2{
     display: flex;
     flex-direction: column;
     padding: 3%;
-    border-left: #8e94c5 5px solid;
-    background-color: rgba(31, 31, 31, 0.5); /* Transparent gray background */
+    border-left: #8e94c5 13px solid;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent gray background */
+    backdrop-filter: blur(px);
+    border-radius: 12px;
 }
 
 .icons {
