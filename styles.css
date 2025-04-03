@@ -12,7 +12,7 @@ h1{
 }
 
 h1, h2, .logo, .nav-links a:hover{
-    background: url(g4.png) center/cover no-repeat;
+    background: url(files/g4.png) center/cover no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-attachment: fixed;
@@ -105,7 +105,7 @@ h2{
 
 .container{
     padding: 3%;
-    padding-top: 10%;
+    padding-top: 80px;
 }
 
 .hero{
