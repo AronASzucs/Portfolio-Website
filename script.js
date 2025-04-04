@@ -7,3 +7,4 @@ function hideSidebar(){
     const sidebar = document.querySelector('.mobile-navbar');
     sidebar.style.display = 'none';
 }
+
