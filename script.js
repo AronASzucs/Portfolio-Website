@@ -1,6 +1,6 @@
 function showSidebar(){
     const sidebar = document.querySelector('.mobile-navbar');
-    sidebar.style.display = 'block';
+    sidebar.style.display = 'flex';
 }
 
 function hideSidebar(){
