@@ -12,7 +12,7 @@ h1{
 }
 
 h1, h2, .logo, .nav-links a:hover{
-    background: url(files/g4.png) center/cover no-repeat;
+    background: url(files/g2.png) center/cover no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-attachment: fixed;
