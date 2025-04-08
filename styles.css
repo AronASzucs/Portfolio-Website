@@ -97,7 +97,7 @@ h3{
     width: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1040px) {
     
     .nav-links{
         display: none;
@@ -109,7 +109,7 @@ h3{
 
 .container{
     padding: 3%;
-    padding-top: 80px;
+    padding-top: calc(10% + 20px);
 }
 
 .hero{
@@ -127,6 +127,14 @@ h3{
     margin-top: 2%;
     color: #8e94c5;
 }
+
+@media (max-width: 768px) {
+    .icons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
 .icons img{
     height: 40px;
     width: 40px;
